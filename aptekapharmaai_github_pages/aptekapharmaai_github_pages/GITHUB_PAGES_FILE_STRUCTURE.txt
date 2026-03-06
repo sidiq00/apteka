@@ -1,0 +1,87 @@
+📁 GITHUB PAGES UCHUN LOYIHA STRUKTURA
+=====================================
+
+aptekapharmaai/
+│
+├── 📦 package.json                 (npm konfiguratsiya)
+├── 📄 .gitignore                   (Git exclude settings)
+│
+├── 📁 public/                      (Statik fayllar - GitHub Pages serve qiladi)
+│   ├── index.html                  (React main HTML file)
+│   └── drugs.json                  (Dori bazasi - JSON format)
+│
+├── 📁 src/                         (React source code)
+│   ├── App.jsx                     (Main React component)
+│   ├── index.jsx                   (React entry point)
+│   └── index.css                   (Styles - Tailwind CSS)
+│
+├── 📁 .github/
+│   └── workflows/
+│       └── deploy.yml              (GitHub Actions - avtomatik deploy)
+│
+└── 📄 README.md                    (Project documentation)
+
+=====================================
+
+📋 FAYLLAR TAVSIFI:
+
+1. package.json
+   - npm dependencies (React, Tailwind, Lucide)
+   - Build scripts
+   - GitHub Pages homepage setting
+
+2. .gitignore
+   - node_modules/
+   - build/
+   - .env files
+   - IDE settings
+
+3. public/index.html
+   - Main HTML template
+   - Meta tags
+   - Root div for React
+
+4. public/drugs.json
+   - Dori bazasi JSON formatida
+   - 15+ populyar dori
+   - Osongina ekspand qilib bo'ladi
+
+5. src/App.jsx
+   - Main React component
+   - Fetch drugs.json
+   - Search, Chat, Drug details tabs
+   - Responsive design
+
+6. src/index.jsx
+   - React DOM rendering
+   - StrictMode
+
+7. .github/workflows/deploy.yml
+   - GitHub Actions configuration
+   - Avtomatik build va deploy
+   - npm install, build, then deploy
+
+=====================================
+
+🚀 DEPLOY QILISH:
+
+1. GitHub-ga repository yaratish
+2. Ushbu fayllarni GitHub-ga push qilish
+3. Settings → Pages → gh-pages branch sozlash
+4. GitHub Actions sozlash
+5. Ready! 🎉
+
+GitHub Pages: https://USERNAME.github.io/aptekapharmaai
+
+=====================================
+
+💾 COPY/PASTE GUIDING:
+
+1. GitHub-da new repo yaratish (aptekapharmaai)
+2. Ushbu struktura bo'yicha papkalar yaratish
+3. Fayllarni o'z joyiga qo'yish
+4. Git push: git add . → git commit → git push
+5. GitHub Pages sozlash
+6. 2-5 daqiqada ishga tushadi
+
+=====================================

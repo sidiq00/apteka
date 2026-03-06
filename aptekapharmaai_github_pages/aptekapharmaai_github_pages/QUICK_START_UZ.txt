@@ -1,0 +1,114 @@
+🚀 GITHUB PAGES-DA DEPLOY QILISH - TEZDA (5 DAQIQA)
+====================================================
+
+SHARTLAR:
+✅ GitHub account (https://github.com/signup)
+✅ Node.js 18+ (https://nodejs.org/)
+✅ Git installed (https://git-scm.com/)
+✅ Terminal / Command Prompt
+
+====================================================
+
+QADAMLAR:
+
+1️⃣  GITHUB-DA REPOSITORY YARATISH (2 DAQ)
+   
+   • GitHub.com login qiling
+   • "New repository" bosing
+   • Name: "aptekapharmaai"
+   • Public qiling
+   • "Create repository" bosing
+
+2️⃣  LOYIHANI LOCAL-DA TAYYORLASH (1 DAQ)
+
+   Terminal-da:
+   
+   git clone https://github.com/YOUR_USERNAME/aptekapharmaai.git
+   cd aptekapharmaai
+
+3️⃣  FAYLLARNI QOLDISH
+
+   Ushbu strukturani yarating:
+   
+   aptekapharmaai/
+   ├── package.json
+   ├── .gitignore
+   ├── public/
+   │   ├── index.html
+   │   └── drugs.json
+   └── src/
+       ├── App.jsx
+       └── index.jsx
+
+   Yuqorida berdirilgan fayllarni o'z joyiga qo'ying!
+
+4️⃣  DEPENDENCIES O'RNATISH (1 DAQ)
+
+   npm install
+
+5️⃣  GITHUB-GA PUSH QILISH (1 DAQ)
+
+   git config user.name "Your Name"
+   git config user.email "your-email@example.com"
+   git add .
+   git commit -m "Initial commit - AptekaPharmaAI"
+   git push origin main
+
+6️⃣  GITHUB PAGES SOZLASH
+
+   • GitHub → Repository → Settings
+   • Pages (chap tarafda)
+   • "Build and deployment" bo'limida:
+     - Source: "Deploy from a branch"
+     - Branch: "gh-pages"
+     - Folder: "/ (root)"
+   • Save
+
+7️⃣  TAYYY! 🎉
+
+   2-5 daqiqadan keyin app ishga tushadi:
+   
+   https://YOUR_USERNAME.github.io/aptekapharmaai
+
+====================================================
+
+❓ MUAMMOLAR:
+
+"404 error" - Settings → Pages → gh-pages sozlangan?
+"Dorilar ko'rinmadi" - public/drugs.json mavjudmi?
+"Asosiy sahifa ko'rinmadi" - public/index.html saqlangan?
+
+====================================================
+
+📚 KEYS AG'AH:
+
+DEVELOPMENT (test qilish uchun):
+   npm start
+   Browser-da: http://localhost:3000
+
+PRODUCTION (GitHub Pages):
+   npm run build
+   # Build/ folder yaratiladi
+   # GitHub Pages avtomatik deploy qiladi
+
+====================================================
+
+🔄 KEYIN YANGILASH:
+
+Dorilarni qo'shish yoki o'zgartirishni xohlasangiz:
+
+1. drugs.json ni edit qiling
+2. git add drugs.json
+3. git commit -m "Dorilar bazasini yangiladi"
+4. git push origin main
+5. GitHub Pages avtomatik yangilanitur!
+
+====================================================
+
+✅ DEPLOY TAYYOR!
+
+URL: https://YOUR_USERNAME.github.io/aptekapharmaai
+Email: aptekachilar@example.com
+Tel: +998 XX XXX XX XX (o'zingiz)
+
+====================================================
